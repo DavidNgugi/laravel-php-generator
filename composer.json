@@ -19,17 +19,14 @@
     },    
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\Generator\\" : "src"
+            "DavidNgugi\\Generator\\" : "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-        "DavidNgugi\\Generator\\LaravelPHPGeneratorServiceProvider"
-    ],
-    "aliases": {
-        "Generator": "DavidNgugi\\Generator\\Facades\\"
-    }
+                "DavidNgugi\\Generator\\LaravelPHPGeneratorServiceProvider"
+            ]
         }
     }
 }
