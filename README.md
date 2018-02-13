@@ -229,8 +229,11 @@ All contributions (big or small) are highly welcomed. Send a PR
 # Support
 
 If you would love to support the continuous development and maintenance of this package, please consider buying me a coffee.
-[logo]([logo]: https://github.com/DavidNgugi/laravel-php-generator/master/coffee.jpg "Buy Me a Coffee")
+[![alt text][logo]](https://www.buymeacoffee.com/DavidNgugi)
+
+[logo]: https://github.com/DavidNgugi/laravel-php-generator/blob/master/coffee.jpg?raw=true "Buy Me a Coffee" 
 
 # License
 
 This package is open-sourced software licensed under the [GNU General Public Licence](../blob/master/LICENSE)
+
