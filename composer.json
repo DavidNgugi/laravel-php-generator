@@ -16,15 +16,15 @@
     "require-dev": {
         "mockery/mockery": "dev-master",
         "phpunit/phpunit": "4.*"
+    }, 
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     },    
     "autoload": {
         "psr-4": {
             "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
         }
     },
     "extra": {
