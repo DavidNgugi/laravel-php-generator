@@ -5,7 +5,7 @@ A simple command line tool to generate your Laravel classes, interfaces and trai
 # Installation
 
 ```bash
-composer require davidngugi/laravel-php-generator --dev
+composer require DavidNgugi/laravel-php-generator --dev
 ```
 
 # Documentation
