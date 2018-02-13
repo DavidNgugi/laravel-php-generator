@@ -1,7 +1,6 @@
 <?php
 
-
-namespace LaravelPHPGenerator\Core;
+namespace DavidNgugi\Generator;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +12,7 @@ use DavidNgugi\Generator\Commands\GenerateTrait;
  * Class McashServiceProvider
  *
  * @category PHP
- * @package  LaravelPHPGenerator\Core
+ * @package  DavidNgugi\Generator
  * @author   David Ngugi <david@davidngugi.com>
 */
 class LaravelPHPGeneratorServiceProvider extends ServiceProvider
