@@ -1,8 +1,8 @@
 <?php
 
-namespace DavidNgugi\Generator\Logic;
+namespace Generator\Logic;
 
-use DavidNgugi\Generator\Logic\CorrectPath;
+use Generator\Logic\CorrectPath;
 /**
 * Class StubReader Reads and interprates stub templates
 */

@@ -1,9 +1,9 @@
 <?php
 
-namespace DavidNgugi\Generator\Commands;
+namespace Generator\Commands;
 
 use Illuminate\Console\Command;
-use DavidNgugi\Generator\Logic\FileManager;
+use Generator\Logic\FileManager;
 
 class GenerateClass extends Command
 {

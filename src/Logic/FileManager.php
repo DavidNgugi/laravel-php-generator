@@ -1,9 +1,9 @@
 <?php
 
-namespace DavidNgugi\Generator\Logic;
+namespace Generator\Logic;
 
-use DavidNgugi\Generator\Logic\StubReader;
-use DavidNgugi\Generator\Logic\CorrectPath;
+use Generator\Logic\StubReader;
+use Generator\Logic\CorrectPath;
 
 use Illuminate\Support\Facades\Storage;
 

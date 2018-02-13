@@ -1,18 +1,18 @@
 <?php
 
-namespace DavidNgugi\Generator;
+namespace Generator;
 
 use Illuminate\Support\ServiceProvider;
 
-use DavidNgugi\Generator\Commands\GenerateClass;
-use DavidNgugi\Generator\Commands\GenerateInterface;
-use DavidNgugi\Generator\Commands\GenerateTrait;
+use Generator\Commands\GenerateClass;
+use Generator\Commands\GenerateInterface;
+use Generator\Commands\GenerateTrait;
 
 /**
  * Class McashServiceProvider
  *
  * @category PHP
- * @package  DavidNgugi\Generator
+ * @package  Generator
  * @author   David Ngugi <david@davidngugi.com>
 */
 class LaravelPHPGeneratorServiceProvider extends ServiceProvider

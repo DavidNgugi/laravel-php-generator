@@ -1,9 +1,9 @@
 <?php
 
-namespace DavidNgugi\Generator\Commands;
+namespace Generator\Commands;
 
 use Illuminate\Console\Command;
-use App\Console\Commands\ArtisanGenerator\Logic\FileManager;
+use Generator\Logic\FileManager;
 
 class GenerateTrait extends Command
 {

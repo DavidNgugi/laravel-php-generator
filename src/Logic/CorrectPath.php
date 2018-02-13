@@ -1,6 +1,6 @@
 <?php
 
-namespace DavidNgugi\Generator\Logic;
+namespace Generator\Logic;
 
 /**
  * CorrectPath Trait
