@@ -19,7 +19,7 @@
     },    
     "autoload": {
         "psr-4": {
-            "LaravelPHPGenerator\\" : "src/"
+            "LaravelPHPGenerator\\" : "src"
         }
     },
     "autoload-dev": {
