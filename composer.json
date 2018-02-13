@@ -19,7 +19,7 @@
     },    
     "autoload": {
         "psr-4": {
-            "Generator\\" : "laravel-php-generator/src/"
+            "LaravelPHPGenerator\\" : "src/"
         }
     },
     "autoload-dev": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Generator\\LaravelPHPGeneratorServiceProvider"
+                "LaravelPHPGenerator\\LaravelPHPGeneratorServiceProvider"
             ]
         }
     }

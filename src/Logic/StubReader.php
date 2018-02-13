@@ -1,8 +1,8 @@
 <?php
 
-namespace Generator\Logic;
+namespace LaravelPHPGenerator\Logic;
 
-use Generator\Logic\CorrectPath;
+use LaravelPHPGenerator\Logic\CorrectPath;
 /**
 * Class StubReader Reads and interprates stub templates
 */

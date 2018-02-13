@@ -1,18 +1,18 @@
 <?php
 
-namespace Generator;
+namespace LaravelPHPGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
-use Generator\Commands\GenerateClass;
-use Generator\Commands\GenerateInterface;
-use Generator\Commands\GenerateTrait;
+use LaravelPHPGenerator\Commands\GenerateClass;
+use LaravelPHPGenerator\Commands\GenerateInterface;
+use LaravelPHPGenerator\Commands\GenerateTrait;
 
 /**
- * Class McashServiceProvider
+ * Class LaravelPHPGeneratorServiceProvider
  *
  * @category PHP
- * @package  Generator
+ * @package  LaravelPHPGenerator
  * @author   David Ngugi <david@davidngugi.com>
 */
 class LaravelPHPGeneratorServiceProvider extends ServiceProvider
@@ -42,7 +42,6 @@ class LaravelPHPGeneratorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-
         // Bind our classes here
     }
 }
