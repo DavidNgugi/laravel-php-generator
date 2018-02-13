@@ -19,7 +19,7 @@
     },    
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\LaravelPHPGenerator\\" : "src/LaravelPHPGenerator"
+            "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
         }
     },
     "autoload-dev": {
