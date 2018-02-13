@@ -1,0 +1,17 @@
+<?php
+
+namespace {path_to_interface};
+
+/**
+*  {interface_name} Interface
+*/
+interface {interface_name}
+{
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+
+	public function foo();
+}

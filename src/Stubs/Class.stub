@@ -1,0 +1,29 @@
+<?php
+
+namespace {path_to_class};
+
+/**
+*  {class_name} Class
+*/
+class {class_name} {
+	
+	/**
+	 * Constructor
+	 * 
+	 * @return void
+	*/
+	public function __construct()
+	{
+		# code ...
+	}
+
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+	public function foo()
+    {
+        return 'bar';
+    }
+}

@@ -1,0 +1,32 @@
+<?php
+
+namespace {path_to_class};
+
+use {path_to_extend_class};
+
+/**
+* Class {class_name} extends {extend_class}
+*/
+class {class_name} extends {extend_class}{
+	
+	/**
+	 * Constructor
+	 * 
+	 * @return void
+	*/
+	public function __construct()
+	{
+		# code ...
+		// parent::__construct(arguments);
+	}
+
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+	public function foo()
+    {
+        return 'bar';
+    }
+}

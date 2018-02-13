@@ -1,0 +1,14 @@
+<?php
+
+namespace {path_to_trait};
+
+/**
+*  {trait_name} Trait
+*/
+trait {trait_name}
+{
+	public function foo()
+    {
+        return 'bar';
+    }
+}

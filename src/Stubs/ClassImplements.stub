@@ -1,0 +1,31 @@
+<?php
+
+namespace {path_to_class};
+
+use {path_to_interface};
+
+/**
+* Class {class_name} implements {interface_name}
+*/
+class {class_name} implements {interface_name}{
+	
+	/**
+	 * Constructor
+	 * 
+	 * @return void
+	*/
+	public function __construct()
+	{
+		# code ...
+	}
+
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+	public function foo()
+    {
+        return 'bar';
+    }
+}

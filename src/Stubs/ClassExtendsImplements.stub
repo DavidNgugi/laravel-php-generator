@@ -1,0 +1,33 @@
+<?php
+
+namespace {path_to_class};
+
+use {path_to_interface};
+use {path_to_extend_class};
+
+/**
+* Class {class_name} extends {extend_class} and implements {interface_name}
+*/
+class {class_name} extends {extend_class} implements {interface_name}{
+	
+	/**
+	 * Constructor
+	 * 
+	 * @return void
+	*/
+	public function __construct()
+	{
+		# code ...
+		// parent::__construct(arguments);
+	}
+
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+	public function foo()
+    {
+        return 'bar';
+    }
+}

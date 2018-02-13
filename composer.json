@@ -1,0 +1,37 @@
+{
+    "name": "davidngugi/laravel-php-generator",
+    "description": "Command line tool to generate your classes, interfaces and traits. Aiming for higher productivity",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Ngugi",
+            "email": "david@davidngugi.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.5.*",
+        "php": ">=^7.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "4.*"
+    },    
+    "autoload": {
+        "psr-4": {
+            "LaravelPHPGenerator\\Core\\" : "src"
+        }
+    },
+    "minimum-stability": "dev",
+        "prefer-stable": true,
+        "extra": {
+            "laravel": {
+                "providers": [
+            "LaravelPHPGenerator\\Core\\LaravelPHPGeneratorServiceProvider"
+        ],
+        "aliases": {
+            "LaravelPHPGenerator": "LaravelPHPGenerator\\Core\\Facades\\"
+        }
+            }
+        },
+}
