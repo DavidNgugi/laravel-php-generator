@@ -1,5 +1,5 @@
 {
-    "name": "laravel-php-generator",
+    "name": "DavidNgugi/laravel-php-generator",
     "description": "Command line tool to generate your classes, interfaces and traits. Aiming for your higher productivity",
     "license": "MIT",
     "authors": [
