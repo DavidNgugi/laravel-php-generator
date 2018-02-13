@@ -229,9 +229,11 @@ All contributions (big or small) are highly welcomed. Send a PR
 # Support
 
 If you would love to support the continuous development and maintenance of this package, please consider buying me a coffee.
-[![alt text][logo]](https://www.buymeacoffee.com/DavidNgugi)
+<!-- [![alt text][logo]](https://www.buymeacoffee.com/DavidNgugi)
 
-[logo]: https://github.com/DavidNgugi/laravel-php-generator/blob/master/coffee.jpg?raw=true "Buy Me a Coffee" 
+[logo]: https://github.com/DavidNgugi/laravel-php-generator/blob/master/coffee.jpg?raw=true "Buy Me a Coffee"  -->
+
+<a href = "https://www.buymeacoffee.com/DavidNgugi" title = "Buy Me a Coffee" target="_blank"><img src="https://github.com/DavidNgugi/laravel-php-generator/blob/master/coffee.jpg?raw=true" width="100%"/></a>
 
 # License
 
