@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Logic;
+
+/**
+*  NewClass Class
+*/
+class NewClass {
+	
+	/**
+	 * Constructor
+	 * 
+	 * @return void
+	*/
+	public function __construct()
+	{
+		# code ...
+	}
+
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+	public function foo()
+    {
+        return 'bar';
+    }
+}

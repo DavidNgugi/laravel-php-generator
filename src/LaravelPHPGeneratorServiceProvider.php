@@ -5,6 +5,10 @@ namespace LaravelPHPGenerator\Core;
 
 use Illuminate\Support\ServiceProvider;
 
+use DavidNgugi\Generator\Commands\GenerateClass;
+use DavidNgugi\Generator\Commands\GenerateInterface;
+use DavidNgugi\Generator\Commands\GenerateTrait;
+
 /**
  * Class McashServiceProvider
  *
@@ -24,10 +28,9 @@ class LaravelPHPGeneratorServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                Commands\GenerateClass::class,
-                Commands\GenerateInterface::class,
-                Commands\GenerateTrait::class,
-                Commands\TestCommand::class
+                GenerateClass::class,
+                GenerateInterface::class,
+                GenerateTrait::class
             ]);
         }
 

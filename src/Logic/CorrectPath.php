@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelPHPGenerator\Core\Logic;
+namespace DavidNgugi\Generator\Logic;
 
 /**
  * CorrectPath Trait

@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Logic\Interfaces;
+
+/**
+*  NewInterface Interface
+*/
+interface NewInterface
+{
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+
+	public function foo();
+}

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelPHPGenerator\Core\Logic;
+namespace DavidNgugi\Generator\Logic;
 
-use LaravelPHPGenerator\Core\Logic\StubReader;
-use LaravelPHPGenerator\Core\Logic\CorrectPath;
+use DavidNgugi\Generator\Logic\StubReader;
+use DavidNgugi\Generator\Logic\CorrectPath;
 
 use Illuminate\Support\Facades\Storage;
 

@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Logic\Traits;
+
+/**
+*  NewTrait Trait
+*/
+trait NewTrait
+{
+	public function foo()
+    {
+        return 'bar';
+    }
+}

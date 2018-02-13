@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace DavidNgugi\Generator\Commands;
 
 use Illuminate\Console\Command;
 use App\Console\Commands\ArtisanGenerator\Logic\FileManager;

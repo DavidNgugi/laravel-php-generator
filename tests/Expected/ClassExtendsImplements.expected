@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Logic;
+
+use App\Logic\NewInterface;
+use App\Logic\ExtendClass;
+
+/**
+* Class ClassName extends ExtendClass and implements NewInterface
+*/
+class ClassName extends ExtendClass implements NewInterface{
+	
+	/**
+	 * Constructor
+	 * 
+	 * @return void
+	*/
+	public function __construct()
+	{
+		# code ...
+		// parent::__construct(arguments);
+	}
+
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+	public function foo()
+    {
+        return 'bar';
+    }
+}

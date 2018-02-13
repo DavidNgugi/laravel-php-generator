@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Logic;
+
+use App\Logic\ExtendClass;
+
+/**
+* Class ClassName extends ExtendClass
+*/
+class ClassName extends ExtendClass{
+	
+	/**
+	 * Constructor
+	 * 
+	 * @return void
+	*/
+	public function __construct()
+	{
+		# code ...
+		// parent::__construct(arguments);
+	}
+
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+	public function foo()
+    {
+        return 'bar';
+    }
+}

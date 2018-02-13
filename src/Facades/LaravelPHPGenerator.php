@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelPHPGenerator\Core\Facades;
+namespace DavidNgugi\Generator\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Facade;
  * Class LaravelPHPGenerator
  *
  * @category PHP
- * @package  LaravelPHPGenerator\Core\Facades
+ * @package  DavidNgugi\Generator\Facades
  * @author   David Ngugi <david@davidngugi.com>
 */
 class LaravelPHPGenerator extends Facade

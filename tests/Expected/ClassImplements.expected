@@ -1,0 +1,31 @@
+<?php
+
+namespace App\Logic;
+
+use App\Logic\NewInterface;
+
+/**
+* Class ClassName implements NewInterface
+*/
+class ClassName implements NewInterface{
+	
+	/**
+	 * Constructor
+	 * 
+	 * @return void
+	*/
+	public function __construct()
+	{
+		# code ...
+	}
+
+	/**
+	 * Method Foo
+	 * 
+	 * @return bar
+	*/
+	public function foo()
+    {
+        return 'bar';
+    }
+}
