@@ -19,7 +19,7 @@
     },    
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\Generator\\" : "src/"
+            "\\DavidNgugi\\Generator\\" : "src/"
         }
     },
     "extra": {
