@@ -5,7 +5,7 @@ A simple command line tool to generate your Laravel classes, interfaces and trai
 # Installation
 
 ```bash
-composer require DavidNgugi/laravel-php-generator --dev
+composer require davidngugi/laravel-php-generator
 ```
 
 # Documentation
@@ -234,5 +234,5 @@ If you would love to support the continuous development and maintenance of this 
 
 # License
 
-This package is open-sourced software licensed under the [GNU General Public Licence](../blob/master/LICENSE)
+This package is open-sourced software licensed under the [MIT Licence](../blob/master/LICENSE)
 
