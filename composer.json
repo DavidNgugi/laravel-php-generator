@@ -21,14 +21,15 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "LaravelPHPGenerator\\" : "src/"
+            "LaravelPHPGenerator\\": "src/"
         }
     },    
     "autoload": {
         "psr-4": {
-            "LaravelPHPGenerator\\" : "src/"
+            "LaravelPHPGenerator\\": "src/"
         }
     },
+    "minimum-stability": "dev-master",
     "extra": {
         "laravel": {
             "providers": [
