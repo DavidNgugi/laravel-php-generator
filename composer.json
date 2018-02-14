@@ -10,7 +10,7 @@
     ],
     "type": "metapackage",
     "require": {
-        "php": ">=7.0.0",
+        "php": ">=7.0",
         "illuminate/support": "5.5.*"   
     },
     "require-dev": {
@@ -24,7 +24,7 @@
     },    
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
+            "DavidNgugi\\LaravelPHPGenerator\\" : "davidngugi/laravel-php-generator/src/"
         }
     },
     "extra": {
