@@ -20,8 +20,6 @@ The following subsections explain further how to use the various commands
 
 *NOTE: Replace the string in curly braces with your own values*
 
-<img src ="https://github.com/DavidNgugi/laravel-php-generator/blob/master/code.gif?raw=true" width="320" height ="auto">
-
 ## Create a class
 
 ```bash
