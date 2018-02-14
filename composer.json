@@ -29,7 +29,6 @@
             "LaravelPHPGenerator\\": "src/"
         }
     },
-    "minimum-stability": "dev-master",
     "extra": {
         "laravel": {
             "providers": [
