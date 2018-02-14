@@ -23,9 +23,9 @@ class LaravelPHPGeneratorServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                DavidNgugi\LaravelPHPGenerator\Commands\GenerateClass::class,
-                DavidNgugi\LaravelPHPGenerator\Commands\GenerateInterface::class,
-                DavidNgugi\LaravelPHPGenerator\Commands\GenerateTrait::class
+                Commands\GenerateClass::class,
+                Commands\GenerateInterface::class,
+                Commands\GenerateTrait::class
             ]);
         }
 
