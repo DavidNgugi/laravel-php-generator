@@ -21,7 +21,7 @@ class CheckFilesExist extends GeneralTestCase {
 	}
 
 	public function test_test_class_is_callable(){
-		$s = new \DavidNgugi\LaravelPHPGenerator\TestClass;
+		$s = new \LaravelPHPGenerator\TestClass;
 		$this->assertTrue(is_object($s));
 	}
 	

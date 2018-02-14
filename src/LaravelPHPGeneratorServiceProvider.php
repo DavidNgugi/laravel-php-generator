@@ -1,6 +1,6 @@
 <?php
 
-namespace DavidNgugi\LaravelPHPGenerator;
+namespace LaravelPHPGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
  * Class LaravelPHPGeneratorServiceProvider
  *
  * @category PHP
- * @package  DavidNgugi\LaravelPHPGenerator
+ * @package  LaravelPHPGenerator
  * @author   David Ngugi <david@davidngugi.com>
 */
 class LaravelPHPGeneratorServiceProvider extends ServiceProvider

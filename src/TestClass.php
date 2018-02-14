@@ -1,6 +1,6 @@
 <?php
 
-namespace DavidNgugi\LaravelPHPGenerator;
+namespace LaravelPHPGenerator;
 
 /**
 * Class TestClass

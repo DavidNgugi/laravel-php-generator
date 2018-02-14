@@ -1,9 +1,9 @@
 <?php
 
-namespace DavidNgugi\LaravelPHPGenerator\Commands;
+namespace LaravelPHPGenerator\Commands;
 
 use Illuminate\Console\Command;
-use DavidNgugi\LaravelPHPGenerator\Logic\FileManager;
+use LaravelPHPGenerator\Logic\FileManager;
 
 class GenerateTrait extends Command
 {

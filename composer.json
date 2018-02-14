@@ -20,12 +20,19 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
+            "LaravelPHPGenerator\\" : "src/"
         }
     },    
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
+            "LaravelPHPGenerator\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelPHPGenerator\\LaravelPHPGeneratorServiceProvider"
+            ]
         }
     }
 }
