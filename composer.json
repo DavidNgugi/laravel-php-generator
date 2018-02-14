@@ -24,7 +24,7 @@
     },    
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\LaravelPHPGenerator\\" : "davidngugi/laravel-php-generator/src/"
+            "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
         }
     },
     "extra": {
