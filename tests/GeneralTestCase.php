@@ -1,10 +1,8 @@
 <?php
 
-namespace Tests;
+namespace DavidNgugi\LaravelPHPGenerator\Tests;
 
 use PHPUnit\Framework\TestCase;
-
-use LaravelPHPGenerator\LaravelPHPGeneratorServiceProvider;
 
 class GeneralTestCase extends TestCase {
 
