@@ -1,6 +1,6 @@
 <?php
 
-namespace DavidNgugi\LaravelPHPGenerator\Tests;
+namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 

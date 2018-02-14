@@ -1,8 +1,8 @@
 <?php
 
-namespace DavidNgugi\LaravelPHPGenerator\Tests\Unit;
+namespace Tests\Unit;
 
-use DavidNgugi\LaravelPHPGenerator\Tests\GeneralTestCase;
+use Tests\GeneralTestCase;
 
 class CheckFilesExist extends GeneralTestCase {
 

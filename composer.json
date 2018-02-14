@@ -19,7 +19,8 @@
     }, 
     "autoload-dev": {
         "psr-4": {
-            "DavidNgugi\\LaravelPHPGenerator\\Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
         }
     },    
     "autoload": {
