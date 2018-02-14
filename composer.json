@@ -8,7 +8,19 @@
             "email": "david@davidngugi.com"
         }
     ],
-    "type": "metapackage",
+    "type": "package",
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "name": "davidngugi/laravel-php-generator",
+            "version": "1.0.3",
+            "source": {
+                    "url": "git@github.com:DavidNgugi/laravel-php-generator.git",
+                "type": "git",
+            "reference": "1.0.3"
+            }
+        }
+    }],
     "require": {
         "php": ">=7.1",
         "illuminate/support": "5.5.*",
