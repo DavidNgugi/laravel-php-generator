@@ -1,6 +1,6 @@
 <?php
 
-namespace DavidNgugi\LaravelPHPGenerator;
+namespace LaravelPHPGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
  * Class LaravelPHPGeneratorServiceProvider
  *
  * @category PHP
- * @package  DavidNgugi\LaravelPHPGenerator
+ * @package  LaravelPHPGenerator
  * @author   David Ngugi <david@davidngugi.com>
 */
 class LaravelPHPGeneratorServiceProvider extends ServiceProvider
@@ -23,9 +23,9 @@ class LaravelPHPGeneratorServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                DavidNgugi\LaravelPHPGenerator\Commands\GenerateClass::class,
-                DavidNgugi\LaravelPHPGenerator\Commands\GenerateInterface::class,
-                DavidNgugi\LaravelPHPGenerator\Commands\GenerateTrait::class
+                Commands\GenerateClass::class,
+                Commands\GenerateInterface::class,
+                Commands\GenerateTrait::class
             ]);
         }
 

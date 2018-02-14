@@ -11,7 +11,8 @@
     "type": "metapackage",
     "require": {
         "php": ">=7.1",
-        "illuminate/support": "5.5.*"   
+        "illuminate/support": "5.5.*",
+        "illuminate/console": "5.5.*"  
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
@@ -20,18 +21,18 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
+            "LaravelPHPGenerator\\": "src/"
         }
     },    
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
+            "LaravelPHPGenerator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DavidNgugi\\LaravelPHPGenerator\\LaravelPHPGeneratorServiceProvider"
+                "LaravelPHPGenerator\\LaravelPHPGeneratorServiceProvider"
             ]
         }
     }
