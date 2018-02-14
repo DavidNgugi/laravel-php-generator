@@ -2,6 +2,8 @@
 
 A simple command line tool to generate your Laravel classes, interfaces and traits. Aiming for your higher productivity
 
+<img src ="https://travis-ci.org/DavidNgugi/laravel-php-generator.svg?branch=master">
+
 # Installation
 
 ```bash

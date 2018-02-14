@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelPHPGenerator\Commands;
+namespace DavidNgugi\LaravelPHPGenerator\Commands;
 
 use Illuminate\Console\Command;
-use LaravelPHPGenerator\Logic\FileManager;
+use DavidNgugi\LaravelPHPGenerator\Logic\FileManager;
 
 class GenerateInterface extends Command
 {
