@@ -20,7 +20,7 @@ The following subsections explain further how to use the various commands
 
 *NOTE: Replace the string in curly braces with your own values*
 
-<img src ="https://github.com/DavidNgugi/laravel-php-generator/blob/master/code.jpg?raw=true" width="100%" height ="240px">
+<img src ="https://github.com/DavidNgugi/laravel-php-generator/blob/master/code.gif?raw=true">
 
 ## Create a class
 
