@@ -20,11 +20,9 @@ The following subsections explain further how to use the various commands
 
 *NOTE: Replace the string in curly braces with your own values*
 
-<!-- <a href="http://www.youtube.com/watch?feature=player_embedded&v=ahOHjsKk5LU
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ahOHjsKk5LU
 " target="_blank"><img src="http://img.youtube.com/vi/ahOHjsKk5LU/0.jpg" 
-alt="IMAGE ALT TEXT HERE"  /></a> -->
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ahOHjsKk5LU/0.jpg)](http://www.youtube.com/watch?v=ahOHjsKk5LU)
+alt="IMAGE ALT TEXT HERE" width="4800" height="320"  /></a>
 
 ## Create a class
 
