@@ -14,6 +14,16 @@ class CheckFilesExist extends GeneralTestCase {
 		$path = $this->base_path."LaravelPHPGeneratorServiceProvider.php";
 		$this->assertTrue(file_exists($path));
 	}
+
+	public function test_test_class_file_exists(){
+		$path = $this->base_path."TestClass.php";
+		$this->assertTrue(file_exists($path));
+	}
+
+	public function test_test_class_is_callable(){
+		$s = new \DavidNgugi\LaravelPHPGenerator\TestClass;
+		$this->assertTrue(is_object($s));
+	}
 	
 	public function test_trait_logic_file_exists(){
 		$path = $this->base_path."Logic/CorrectPath.php";

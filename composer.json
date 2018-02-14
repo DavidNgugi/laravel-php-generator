@@ -24,13 +24,13 @@
     },    
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
+            "\\DavidNgugi\\LaravelPHPGenerator\\" : "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DavidNgugi\\LaravelPHPGenerator\\LaravelPHPGeneratorServiceProvider"
+                "\\DavidNgugi\\LaravelPHPGenerator\\LaravelPHPGeneratorServiceProvider"
             ]
         }
     }
