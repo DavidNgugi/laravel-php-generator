@@ -22,7 +22,7 @@ The following subsections explain further how to use the various commands
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ahOHjsKk5LU
 " target="_blank"><img src="http://img.youtube.com/vi/ahOHjsKk5LU/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="4800" height="320"  /></a>
+alt="IMAGE ALT TEXT HERE" width="4800" height="auto"  /></a>
 
 ## Create a class
 
