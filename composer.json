@@ -27,12 +27,5 @@
         "psr-4": {
             "DavidNgugi\\LaravelPHPGenerator\\" : "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "DavidNgugi\\LaravelPHPGenerator\\LaravelPHPGeneratorServiceProvider"
-            ]
-        }
     }
 }
