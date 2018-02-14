@@ -9,7 +9,7 @@ class GeneralTestCase extends TestCase {
 	protected $base_path;
 
 	public function setup(){
-        $this->base_path = __DIR__."/../src/";
+        $this->base_path = __DIR__."/../src";
     }
 
     public function testSetup(){
